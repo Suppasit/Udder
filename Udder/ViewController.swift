@@ -15,8 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func didReceiveMemoryWarning() {
+        // Do something here!!!
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         // Do something here!!!
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        // Do somthing here!!!
     }
 
 
